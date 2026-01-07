@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #dfe3e6;
+  padding: 30px;
+}
+
+.page {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  background: #4b555c;
+  color: white;
+  padding: 20px 25px;
+}
+
+.logo {
+  border: 2px solid white;
+  padding: 12px 14px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header-info h1 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.header-info p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+/* CONTENT */
+.content {
+  padding: 25px;
+}
+
+section {
+  margin-bottom: 26px;
+}
+
+h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #333;
+  border-bottom: 1px solid #cfd3d6;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+/* COLUMNS */
+.two-col {
+  display: flex;
+  gap: 60px;
+}
+
+ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* EXPERIENCE */
+.job {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.job-title span {
+  float: right;
+  font-size: 12px;
+  color: #555;
+}
+
+/* EDUCATION */
+.edu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.muted {
+  font-size: 13px;
+  color: #666;
+}
+
+/* LANGUAGES */
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.bar {
+  flex: 1;
+  height: 6px;
+  background: #d7dadd;
+  border-radius: 3px;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  background: #4b555c;
+  border-radius: 3px;
+}
+
+.c2 { width: 90%; }
+.b2 { width: 70%; }
+
+.grade {
+  width: 28px;
+  text-align: right;
+}
+
+.level {
+  margin-left: auto;
+  color: #555;
+}
